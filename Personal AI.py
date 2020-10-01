@@ -147,7 +147,21 @@ if __name__ == "__main__":
 
         elif 'want to search in google' in query:
             seach_google()
-
+        
+        # Hey!, as I can see that you did a great job in thi AI!
+        # U have written clean code define useful functions
+        # But I will suggest you some changes in your code, hope u like them
+        
+        elif 'open notepad and quit' in query:
+            subprocess.Popen('C:\\Windows\\System32\\notepad.exe')
+        # as u can see that here i have included a function to open notepad and quit
+        # this will help u as it sometimes becames very annoying that after doing a task with this AI your AI does'nt close and it keeps working in background
+        # but u will also need this feature sometimes soo..
+        # by this function u can say to this task and quit or if u don't want to do soo u can just say do this task
+        # And u can can implement this feature with all your function
+        # Hope this may help u!
+        # I did spent a lot of time thinking about this function please accept this pull request!
+        # Thanks and Peace!
 
 
         elif 'quit' in query:
